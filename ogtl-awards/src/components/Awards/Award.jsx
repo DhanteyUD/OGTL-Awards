@@ -2,13 +2,6 @@
 
 import React from 'react';
 import './award.css';
-import GBSAward from '../../assets/GBS.png';
-import EEAAward from '../../assets/Export-Excellence-Award-2021.png';
-import SEAward from '../../assets/Service-Exporting-Company-of-the-Year-2022.png';
-import UNDPAward from '../../assets/Private-Sector-Excellence.png';
-import BSEAward from '../../assets/Best-sectoral-exporter.png';
-import OAAward from '../../assets/Services-Sector-Award.png';
-import ICCAward from '../../assets/Nigeria-Tech-Awards.png';
 
 function Award() {
   return (
@@ -17,14 +10,14 @@ function Award() {
         <a href={'https://gbs.world/profile/outsource-global/'}>
           <div className="award-container">
             <div className="award-image-container">
-              <img src={GBSAward} alt="GBS Certified Service Provider" />
+              <img src='https://res.cloudinary.com/dhantey/image/upload/v1674758818/OGTL/GBS_jm0vps.png' alt="GBS Certified Service Provider" />
             </div>
             <p>GBS Certified Service Provider</p>
           </div>
         </a>
         <div className="award-container">
           <div className="award-image-container">
-            <img src={EEAAward} alt="Export Excellence Award 2021" />
+            <img src='https://res.cloudinary.com/dhantey/image/upload/v1674758819/OGTL/Export-Excellence-Award-2021_llhpg0.png' alt="Export Excellence Award 2021" />
           </div>
           <p>Export Excellence Award 2021</p>
         </div>
@@ -32,7 +25,7 @@ function Award() {
           <div className="award-container">
             <div className="award-image-container">
               <img
-                src={SEAward}
+                src='https://res.cloudinary.com/dhantey/image/upload/v1674758819/OGTL/Service-Exporting-Company-of-the-Year-2022_nfns1l.png'
                 alt="Service Exporting Company of the Year Award 2019"
               />
             </div>
@@ -41,20 +34,20 @@ function Award() {
         </a>
         <div className="award-container">
           <div className="award-image-container">
-            <img src={UNDPAward} alt="UNDP's Private Sector Excellence Award" />
+            <img src='https://res.cloudinary.com/dhantey/image/upload/v1674758819/OGTL/Private-Sector-Excellence_rlzqpu.png' alt="UNDP's Private Sector Excellence Award" />
           </div>
           <p>UNDP's Private Sector Excellence Award</p>
         </div>
         <div className="award-container">
           <div className="award-image-container">
-            <img src={BSEAward} alt="Best sectoral exporter 2022" />
+            <img src='https://res.cloudinary.com/dhantey/image/upload/v1674758819/OGTL/Best-sectoral-exporter_sicfob.png' alt="Best sectoral exporter 2022" />
           </div>
           <p>Best sectoral exporter 2022</p>
         </div>
         <div className="award-container">
           <div className="award-image-container">
             <img
-              src={OAAward}
+              src='https://res.cloudinary.com/dhantey/image/upload/v1674758820/OGTL/Services-Sector-Award_gnn6km.png'
               alt="Outstanding achievement in the services sector 2020"
             />
           </div>
@@ -68,7 +61,7 @@ function Award() {
           <div className="award-container">
             <div className="award-image-container">
               <img
-                src={ICCAward}
+                src='https://res.cloudinary.com/dhantey/image/upload/v1674758819/OGTL/Nigeria-Tech-Awards_sd0tgm.png'
                 alt="2018 Innovative Contact Center and BPO Operator"
               />
             </div>
